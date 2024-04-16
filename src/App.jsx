@@ -1,12 +1,13 @@
 
-import Todo from './components/Todo'
+import { RouterProviderApp } from './components/AppRouter'
+
 
 function App() {
  
 
   return (
     <>
-      <Todo/>
+      <RouterProviderApp/>
     </>
   )
 }
