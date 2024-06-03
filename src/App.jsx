@@ -6,9 +6,9 @@ function App() {
  
 
   return (
-    <>
+    <section className='w-full h-screen bg-white'>
       <RouterProviderApp/>
-    </>
+    </section>
   )
 }
 
